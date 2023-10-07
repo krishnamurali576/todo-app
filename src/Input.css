@@ -1,0 +1,39 @@
+.main-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(25, 21, 21);
+  height: 100vh;
+}
+.main-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  min-height: 500px;
+  background-color: rgb(145, 119, 119, 0);
+  transition: background-color 1s ease-in-out;
+  border-radius: 50px 0 50px 0;
+}
+
+.main-container:hover {
+  background-color: rgb(145, 119, 119, 0.8);
+}
+.input-box {
+  display: flex;
+  justify-content: center;
+}
+.input-display {
+  margin-top: 50px;
+}
+.btn {
+  background-color: rgb(161, 50, 50);
+  border-width: 5px;
+  border-color: red;
+  border-radius: 10px;
+}
+
+.todo-text {
+  color: red;
+}
